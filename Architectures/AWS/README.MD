@@ -6,15 +6,15 @@ pour héberger une application web en production.
 Ce VPC est utilisé pour l"ensemble des labs sur ce portfolio.
 
 ## 🏗️ Architecture
-- 1 VPC
-- 2 AZ
+- 1 VPC (Virtual Private Cloud)
+- 2 AZ (Availability Zone)
 - 2 subnets publics / 2 privés
 - Internet Gateway
 - Tables de routage dédiées
 
 ## 🛠️ Difficultés rencontrées
 - Mauvaise association des tables de routage
-- Confusion IGW / NAT Gateway
+- Confusion IGW (Internet Gateway) / NAT Gateway
 
 ## ✅ Acquis
 - Compréhension du découpage CIDR
