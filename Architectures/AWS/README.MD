@@ -1,8 +1,26 @@
-# Les parcours AWS ![AWS](https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/amazonaws.svg) 
-Pour toute le contenu de ce portfolio, voici les configuration de base et chaque fichier PDF contenant les captures des mabs faits sur AWS. 
+# AWS VPC – Architecture multi-AZ
 
-## Les Difficultés rencontrés
+## 🎯 Objectif
+Concevoir un réseau AWS isolé et hautement disponible
+pour héberger une application web en production.
+Ce VPC est utilisé pour l"ensemble des labs sur ce portfolio.
 
-## Les decouvertes faits 
+## 🏗️ Architecture
+- 1 VPC
+- 2 AZ
+- 2 subnets publics / 2 privés
+- Internet Gateway
+- Tables de routage dédiées
 
-## Les acquis
+## 🛠️ Difficultés rencontrées
+- Mauvaise association des tables de routage
+- Confusion IGW / NAT Gateway
+
+## ✅ Acquis
+- Compréhension du découpage CIDR
+- Séparation public / privé
+- Logique haute disponibilité AWS
+
+## 📄 Détails techniques
+- [Lab VPC basique (PDF)](./lab-vpc-basic.pdf)
+- [Lab VPC multi-AZ (PDF)](./lab-vpc-multi-az.pdf)
