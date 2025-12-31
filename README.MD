@@ -17,12 +17,18 @@ L’objectif est de déployer la même application selon plusieurs approches :
 classique, conteneurisée et serverless, tout en automatisant l’infrastructure,
 le déploiement et le monitoring.
 
-## 🔧 Compétences
-- Linux : Administration linux et sécurisation, scripting bash, systemd, backup & restoration
-- AWS : EC2, S3, Lambda, Fargate, ECS/ECR/EKS, Load Balancing, Autoscaling, IAM, VPC, RDS, CloudWatch, CLoudtrail, Security ...
-- Containerization & Orchestration : Docker & Docker Compose, Kubernetes
+## 🔧 Compétences pratiqués
+- Linux : Administration linux et sécurisation, scripting bash, systemd, backup
+- AWS : EC2, S3, Lambda, IAM, VPC
+- Containerization & Orchestration : Docker & Docker Compose
 - Git & GitHub
-- Automation : Terraform, Ansible, github action
+- Automation : github action
+
+## 🔧 Compétences en cours
+- Linux : restoration
+- AWS : Fargate, ECS/ECR/EKS, Load Balancing, Autoscaling, RDS, CloudWatch, CLoudtrail, Security ...
+- Orchestration : Kubernetes
+- Automation : Terraform, Ansible
 - Monitoring : Grafana, Prometheus, Zabbix
 
 ## 📂 Projets
