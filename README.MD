@@ -1,7 +1,16 @@
 # 🚀 Parcours DevOps – Application de réservation d’hôtels
 
 👋 Je suis Pierre RASOLONJATOVO, apprenti DevOps / Cloud.
-Ce portfolio présente mes projets pratiques sur AWS, Linux, Docker et Git, Ansible, Terraform, Github action, Kubernetes, Grafana et Prometheus.
+Ce portfolio présente mes projets pratiques sur :
+[AWS](./Architectures/AWS/), 
+[Linux](./Linux/), 
+[Docker](./Docker%20&%20Kubernetes/), 
+[Git](./.), 
+[Ansible](./infrastructure-as-code/ansible/), 
+[Terraform](./infrastructure-as-code/terraform/), 
+[Github action](./ci-cd/github-actions/), 
+[Kubernetes](./Docker%20&%20Kubernetes/Kubernetes/), 
+[Grafana et Prometheus](./monitoring/grafana-prometeus/)
 
 Ce dépôt documente mon parcours DevOps à partir d’une application métier réelle.
 L’objectif est de déployer la même application selon plusieurs approches :
