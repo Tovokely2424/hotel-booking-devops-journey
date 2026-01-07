@@ -40,11 +40,13 @@
 ## Phase 2.1 – Fondations AWS & Réseau
 - [x] VPC multi-AZ
 - [x] Subnets publics / privates
+- [x] Hosting static website on a s3 bucket
 - [ ] Internet Gateway
 - [ ] NAT Gateway
 ## Phase 2.2 Security hardening : 
 - [ ] Security Groups
 - [ ] NACL (Network Access Control list)
+- [ ] Encrypt comminication on static website hosted on s3 bucket
 - [ ] AWS Shild
 - [ ] AWS WAF
 
