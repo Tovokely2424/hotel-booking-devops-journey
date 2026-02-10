@@ -2,14 +2,24 @@
 
 # AWS VPC – Architecture multi-AZ
 
-## 🎯 Objectif
-Deployer une application dans une architecture classique : 
-- [x] 2 instances EC2 dans 2 AZs pour la haute disponiblité
-- [x] Internet Gateway pour l'accès internet
-- [x] 1 ELB (Elastic Load Balancing) pour gere le trafique
-- [x] 1 RDS a base MSQL pour la gestion de la base de donnée
-- [x] IAM Role : EC2 pour accès s3 et RDS de l'instance EC2
-- [x] Security Groupe pour autoriser HTTP, SSH(administration), Mysql
+## 🔧 applied Skills
+- [x] Utiliser Git/Github pour le versionning
+- [x] 3 branchs : PR (local), develop(staging), main(prod)
+- [x] CI/CD via github action en fonction des push sur une branch
+- [x] configuration et bonnes pratiques VPC
+- [x] Division de VPC en 4 subnets
+- [x] COnfigurtaion des tables de routages attachées à chaque route
+- [x] Configuration d'internet Gateway
+- [x] Configuration des règles sortant/Entrant via security group
+- [x] Configuration Network ACL pour une couche suplémentaire de sécurité des sous réseausx
+- [x] Mettre en place un suivi de log est cache de l'application
+
+## 🛠️ Securisation de l'infrastructure
+- [x] Bonnes pratiques de securisation linux  
+- Connexion par clé ssh pas de mot de passe
+- Limiter les accès par IP au niveau du firewall
+- Ajouter une couche de sécurité avec Fail2ban
+- Surveiller les log
 
 ## 🏗️ Architecture
 
